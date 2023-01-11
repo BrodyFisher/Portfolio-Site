@@ -151,40 +151,40 @@ export default function Home() {
           <h1 className='text-black text-5xl'>About Me</h1>
           <p className='text-black py-2'>A few things about me.</p>
           <div class=" border border-black w-8/12 overflow-hidden mx-auto rounded-xl bg-violet-400 shadow-lg">
-            <div className='bg-violet-500 table-cell align-middle w-4/12'>
+            <div className='bg-violet-400 table-cell align-middle w-4/12'>
               <h2 className=' pr-1 text-center font-medium text-xl' >Here's a list of my relevant, computer related skills, in no particular order;</h2>
             </div>
             <div className='table-cell align-middle w-4/12 bg-neutral-200 text-black'>
               <ul>
                 <li>
-                  <h2 className='text-xl p-2'>Over a decade of familiarity and experience in Windows and MacOS</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Intermediate level of knowledge in major OOP languages such as C++, Java and Python</h2>
+                  <h2 className='text-xl p-2'>Well versed in problem solving</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>An extensive amount of knowledge in HTML, CSS, and JavaScript</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Extreme familiarity with git and github</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Experience in creating and completing large scale projects concerning both hardware and software</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Lead programmer in a successful High-School robotics club over two years with the use of the OpenCV library</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Experience using the Unity game engine and C# to create games and applications</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Competitive programming skills mostly because of the CCC from the University of Waterloo</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Comfortable experience with the MacOS terminal and command line interfaces</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Years of experience in several different IDE's, such as Visual Studio, VScode, notepad++, Adobe Dreamweaver and Adobe Brackets</h2>
+                  <h2 className='text-xl p-2'></h2>
                 </li>
               </ul>
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
                   Message
               </label>
               <textarea placeholder='Message' name="message" className=" flex justify-center shadow border border-violet-400 bg-white rounded w-11/12 p-5  text-black mb-3"/>
-              <input onClick={handleClick} type="submit" value="Send" className='flex justify-center bg-violet-400 rounded-lg px-10 py-4 hover:bg-violet-500 m-10'/>
+              <input type="submit" value="Send" className='flex justify-center bg-violet-400 rounded-lg px-10 py-4 hover:bg-violet-500 m-10'/>
             </form>
           </div>
         </section>
