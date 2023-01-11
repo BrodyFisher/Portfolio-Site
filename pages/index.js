@@ -46,12 +46,12 @@ export default function Home() {
             <h1 className='text-xl px-2 py-2 rounded-md bg-violet-400'>Fisher Obillos</h1>
             <ul className='flex items-center'>
               <li>
-                <Image src={icon} width={80} height={80}/>
+                <Image src={icon} width={80} height={80} className=" object-contain"/>
               </li>
               <li>
                 <a 
                   className='bg-violet-400 hover:bg-violet-500 text-white px-4 py-2 rounded-md ml-8' 
-                  href="something">
+                  href="Resume.pdf">
                   Resume
                 </a>
                 <Link smooth
@@ -147,7 +147,7 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className=' h-screen mb-10' id='about'>
+        <section className=' h-screen ' id='about'>
           <h1 className='text-black text-5xl'>About Me</h1>
           <p className='text-black py-2'>A few things about me.</p>
           <div class=" border border-black w-8/12 overflow-hidden mx-auto rounded-xl bg-violet-400 shadow-lg">
@@ -160,31 +160,31 @@ export default function Home() {
                   <h2 className='text-xl p-2'></h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'>Well versed in problem solving</h2>
+                  <h2 className='text-xl p-2'>Well versed in problem solving.</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Have been interested in computers and programming from a young age.</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Two years, intermediate experience with C/C++.</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Experience writing modular programs.</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Experience with Python.</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Well versed in computer vision, particularly using OpenCV in C++.</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Familiar with hardware and electronics due to FTC/FRC involvement in high school.</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Extreme interest and enthusiasm to work with others and create projects!</h2>
                 </li>
                 <li>
-                  <h2 className='text-xl p-2'></h2>
+                  <h2 className='text-xl p-2'>Always excited to learn something new and expand my personal skillset! :)</h2>
                 </li>
               </ul>
             </div>
