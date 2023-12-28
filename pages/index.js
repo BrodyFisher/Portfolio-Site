@@ -7,6 +7,8 @@ import { Link } from 'react-scroll';
 import Image from 'next/image';
 import profile from '../public/Profile.png';
 import camera from '../public/Camera-icon.png';
+
+import engine from '../public/engine-icon.png';
 import snake from '../public/Snake-icon.png';
 import icon from '../public/Fisherlogo-uncoloured.png';
 import { useState } from 'react';
@@ -145,6 +147,19 @@ export default function Home() {
                 </p>
               </div>
             </a>
+            <a href="https://github.com/BrodyFisher/OpenCV" target="_blank">
+            <div className='border-2 mx-auto text-center shadow-lg p-10 rounded-xl my-10 hover:shadow-2xl hover:border-violet-400'>
+              <div className='flex justify-center'>
+                <Image src={engine} width={100} height={100} />
+              </div>
+              <h3 className='text-black py-2'>
+                ASCII Art Game Engine
+              </h3>
+              <p className='text-black py-2'>
+                A game engine written in C++ that allows for the creation of ASCII art video games to be played in the terminal. The engine use the ncurses library as the primary way of displaying graphics to the screen.
+              </p>
+            </div>
+          </a>
           </div>
         </section>
         <section className=' h-screen ' id='about'>
