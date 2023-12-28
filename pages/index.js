@@ -147,7 +147,7 @@ export default function Home() {
                 </p>
               </div>
             </a>
-            <a href="https://github.com/BrodyFisher/OpenCV" target="_blank">
+            <a href="https://github.com/BrodyFisher/ASCII-Game-Engine" target="_blank">
             <div className='border-2 mx-auto text-center shadow-lg p-10 rounded-xl my-10 hover:shadow-2xl hover:border-violet-400'>
               <div className='flex justify-center'>
                 <Image src={engine} width={100} height={100} />
