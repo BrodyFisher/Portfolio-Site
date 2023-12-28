@@ -51,7 +51,7 @@ export default function Home() {
               <li>
                 <a 
                   className='bg-violet-400 hover:bg-violet-500 text-white px-4 py-2 rounded-md ml-8' 
-                  href="Resume.pdf">
+                  href="WebResume.pdf">
                   Resume
                 </a>
                 <Link smooth
